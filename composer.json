@@ -10,6 +10,7 @@
         "illuminate/html": "^5.0",
         "tymon/jwt-auth": "0.5.*",
         "filp/whoops": "1.2.*@dev"
+        
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
