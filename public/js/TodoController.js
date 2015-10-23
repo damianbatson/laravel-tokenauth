@@ -1,9 +1,4 @@
-/**
- * Created by andrea.terzani on 13/07/2015.
- */
-/**
- * Created by andrea.terzani on 13/07/2015.
- */
+
 
 app.controller('TodoController',  function($state,$http,$rootScope, $scope,$auth) {
 

@@ -1,6 +1,4 @@
-/**
- * Created by andrea.terzani on 13/07/2015.
- */
+
 
 app.controller('AuthController',  function($auth, $state,$http,$rootScope, $scope) {
 
