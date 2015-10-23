@@ -10,4 +10,9 @@ Laravel 5.1 auth using JSON web tokens (JWTs).
 
 uses tymons jwt-auth on the PHP to generate a JWT which stored on the client side using satellizer.
 
-view app/Http/Controllers/TokenAuthController.php for PHP login and public/js/AuthController.js for javascript
+view app/Http/Controllers/TokenAuthController.php for PHP login and public/js/AuthController.js for javascript.
+
+the client-side uses a then promise with error handling to authenticate the user and parse the data to the laravel API.
+
+on the Laravel side, the JWT library exceptions are used in a series of try/catch blocks to determine the validity of the tokens.
+
