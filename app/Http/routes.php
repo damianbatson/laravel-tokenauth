@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::post('api/register', 'TokenAuthController@register');
 Route::post('api/authenticate', 'TokenAuthController@authenticate');
-Route::get('api/authenticate/user', 'TokenAuthController@getAuthUser');
+// Route::get('api/authenticate/user', 'TokenAuthController@getAuthUser');
 
 Route::resource('api/todo', 'TodoController');
 

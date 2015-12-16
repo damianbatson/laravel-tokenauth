@@ -34,6 +34,7 @@ app.controller('TodoController',  function($state,$http,$rootScope, $scope,$auth
             localStorage.removeItem('user');
             $rootScope.authenticated = false;
             $rootScope.currentUser = null;
+            $state.go('login');
         });
     }
 

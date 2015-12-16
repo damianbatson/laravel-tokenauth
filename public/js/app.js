@@ -2,6 +2,7 @@ var app = angular.module('todoApp', ['ui.router', 'satellizer'])
     .config(function($stateProvider, $urlRouterProvider, $authProvider,$provide) {
 
         $authProvider.loginUrl = '/api/authenticate';
+        $authProvider.signupUrl = '/api/register';
 
         $urlRouterProvider.otherwise('/login');
 
